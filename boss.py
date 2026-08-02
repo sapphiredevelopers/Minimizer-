@@ -140,7 +140,7 @@ new_banner = '\n'.join(gradient_text(line.center(console_width), GOLD_START, BLU
 
 options = """
          ┌───────────────────────────────────────────────────────────────────────────────────────────┐         
-         │                                UNETHICAL SYNDICATE ON TOP                                 │         
+         │                                HXNGOUT ON TOP                                 │         
 ┌────────└────────────────────────┬──────────────────────────────────────────┬───────────────────────┘────────┐
 │                                 │                                          │                                │
 │<01> Ban Members                 │<07> Delete Roles                         │<13> Change Icon                │
@@ -156,7 +156,7 @@ options = """
 │<06> Delete Channels             │<12> Nick All                             │<18> Exit                       │
 │                                 │                                          │                                │
 └──────┌──────────────────────────┴──────────────────────────────────────────┴───────────────────────┐────────┘
-       │                                     BOSS DADDY CREATION                                     │         
+       │                                     HXNGOUT CREATION                                     │         
        └─────────────────────────────────────────────────────────────────────────────────────────────┘         
 """.rstrip('\n').split('\n')
 options = '\n'.join(gradient_text(line.center(console_width), GOLD_START, BLUE_END, bold=True) for line in options)
@@ -695,9 +695,9 @@ class shakti:
         if os.name == "nt":
             os.system(f"title Nuker | Max Concurrent: {__max_concurrent__}")
         print(new_banner)
-        print(gradient_text("   MADE BY UNETHICAL SYNDICATE ".center(console_width), GOLD_START, BLUE_END, bold=True))
+        print(gradient_text("   MADE BY HXNGOUT ".center(console_width), GOLD_START, BLUE_END, bold=True))
         print(gradient_text(f"     LOADED PROXIES:<{self.proxy_count}>".center(console_width), GOLD_START, BLUE_END, bold=True))
-        print(gradient_text("    BOSS DADDY ON TOP ".center(console_width), GOLD_START, BLUE_END, bold=True))
+        print(gradient_text("    HXNGOUT ON TOP ".center(console_width), GOLD_START, BLUE_END, bold=True))
         print(options)
         ans = await self.async_input(format_log_message("INFO", "Select Option", 50))
         ans = ans.strip()
